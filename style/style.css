@@ -3,7 +3,7 @@ body, footer>ul{
     padding: 0;
 }
 /* header*/
-.header {
+header {
     padding: 1px;
     text-align: center;
     background-color: #F3B75B;    color: white;
@@ -11,22 +11,18 @@ body, footer>ul{
 }
 
 /* Page Content */
-header> ul>li
+header> ul li
 {
-    padding-left: 60px ;
+    height: 60px;
+    width:200px;
 }
-ul li
+header ul li
 {
-    display: inline;
-
-}
- ul li
-{
-    padding: 30px;
-}
-header ul li:hover
-{
-    background-color:#7FCBCD;
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    transform: translateY(25%);
+    right: 7%;
 }
 header ul>a
 {
@@ -35,13 +31,13 @@ header ul>a
 }
 header ul>a:hover
 {
-    color: #005C5F;
+    color: gray;
 }
 
 #logo
 {
-    width: 129px;
-    height: 129px;
+    width: 122px;
+    height: 122px;
     float: left;
 
 }
@@ -49,6 +45,9 @@ header ul>a:hover
 {
     width: 60px;
     height: 60px;
+    position: absolute;
+    right: 10%;
+    top: 3%;
 }
 /*stijl voor producten*/
 .container {
