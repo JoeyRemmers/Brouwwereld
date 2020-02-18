@@ -27,12 +27,12 @@ header ul li
     transform: translateY(25%);
     right: 7%;
 }
-header ul>a
+header ul>li>a
 {
     text-decoration: none;
     color: white;
 }
-header ul>a:hover
+header ul>li>a:hover
 {
     color: gray;
 }
