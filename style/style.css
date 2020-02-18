@@ -37,14 +37,14 @@ header ul>li>a:hover
     color: gray;
 }
 
-#logo
+.logo
 {
     width: 122px;
     height: 122px;
     float: left;
 
 }
-#winkelwagen
+.winkelwagen
 {
     width: 60px;
     height: 60px;
