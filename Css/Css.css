@@ -1,0 +1,50 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    padding: 1px;
+    text-align: center;
+    background-color: #F3B75B;
+    color: white;
+    font-size: 30px;
+}
+
+/* Page Content */
+li
+{
+    padding-left: 60px ;
+}
+ul li
+{
+    display: inline;
+    padding: 32px;
+}
+ul li:hover
+{
+    background-color:#7FCBCD;
+}
+ul>a
+{
+    text-decoration: none;
+    color: white;
+}
+ul>a:hover
+{
+    color: #005C5F;
+}
+
+#logo
+{
+    width: 129px;
+    height: 129px;
+    float: left;
+
+}
+#winkelwagen
+{
+    width: 60px;
+    height: 60px;
+}
