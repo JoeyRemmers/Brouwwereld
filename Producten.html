@@ -3,43 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Brouwwereld</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
-    <img src="Foto's/brouwwereld_logo_transparent.png" alt="logo" id="logo">
+    <img src="assets/Images/brouwwereld_logo_transparent.png" alt="logo" class="logo">
     <ul>
-        <a href="Producten.html"> <li>
-            Producten
-        </li></a>
-        <a href="Over%20ons.html"><li>
-            Over ons
-        </li></a>
-        <a href="Nieuws.html"> <li>
-            Nieuws
-        </li></a>
-        <a href="Contact.html"> <li>
-            Contact
-        </li></a>
+        <a href="Producten.html">
+            <li>
+                Producten
+            </li>
+        </a>
+        <a href="Over%20ons.html">
+            <li>
+                Over ons
+            </li>
+        </a>
+        <a href="Nieuws.html">
+            <li>
+                Nieuws
+            </li>
+        </a>
+        <a href="Contact.html">
+            <li>
+                Contact
+            </li>
+        </a>
         <a href="Winkelwagen.html">
-            <img src="Foto's/Winkelwagen.png" id="winkelwagen">
+            <img src="assets/Images/Winkelwagen.png" class="winkelwagen">
         </a>
     </ul>
 </header>
 <main>
-    <div class="row">
-     <div class="col-sm-12 col-md-6 col-lg-3 container product">
-        <div class="">
-            <img src="assets/Images/pabrobier.jpeg" alt="pablobier" class="image">
+    <h1>Producten</h1>
+    <!--de container waar de producten in moeten-->
+    <div class="container">
+        <!--het product-->
+        <div class="product">
+            <div class="imgover">
+                <img src="assets/Images/heineken.jpg" alt="heineken" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                   </div>
+                </div>
+            </div>
+            <h3>heineken<br>&euro;0,99</h3>
+        </div>
+        <div class="product">
+            <div class="imgover">
+                <img src="assets/Images/desperados.jpg" alt="desperados" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </div>
+                </div>
+            </div>
+            <h3>desperados<br>&euro;2,-</h3>
+        </div>
+        <div class="product">
+            <div class="imgover">
+                <img src="assets/Images/Bavaria.jpg" alt="desperados" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Bavaria glutenvrij bier is een verfrissend zuiver en goed doordrinkbare pils zonder gluten. Tonen van granen en fruit geven het dorstlessende lichtblonde bier zijn karakter. Smaakpalet: mooie bitterheid, medium body, verfrissend.
+                        Heerlijk bij: pittige vleesgerechten en vleesgerechten van de bbq.
+                        Het lekkerste op temperatuur: 4 graden celsius. Bewaren: koel en donker.
+                        Alcoholpercentage: 5,0%.
+                    </div>
+                </div>
+            </div>
+            <h3>Bavaria Glutenvrij<br>&euro;1,19</h3>
+        </div>
+        <div class="product">
+        <div class="imgover">
+            <img src="assets/Images/croyblond.jpg" alt="desperados" class="image">
             <div class="overlay">
                 <div class="text">
-                    Parbo bier Djogo 1,00 Liter Fles is een 5% alcoholisch bier met een karakteristieke frisse smaak, een bitterheid die zacht is en geen droge smaak achterlaat. Dit wordt deels toegeschreven aan het feit dat in het brouwproces Surinaamse rijst wordt gebruikt.
+                    Croy Blond is een licht speciaalbier van hoge gisting. Vijf van de beste moutsoorten en drie aromatische hopsoorten geven Croy Blond een volmondige smaak en een verfrissende afdronk. Croy speciaalbier worden gebrouwen in de traditie van weleer. De beste hop en mout, de beste gist en de kundige hand van onze brouwer Derk Jan maken een bijzonder karaktervol Croy bier.
                 </div>
             </div>
         </div>
-         <h2>Parbo Bier <br> &euro;5,-</h2>
-     </div>
-
+        <h3>Croy blond<br>&euro;1,22</h3>
+    </div>
     </div>
 </main>
 <footer>
