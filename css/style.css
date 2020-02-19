@@ -9,7 +9,10 @@ header {
     background-color: #F3B75B;    color: white;
     font-size: 30px;
 }
-
+h2
+{
+    color: #D28832;
+}
 /* Page Content */
 header> ul li
 {
@@ -24,12 +27,12 @@ header ul li
     transform: translateY(25%);
     right: 7%;
 }
-header ul>a
+header ul>li>a
 {
     text-decoration: none;
     color: white;
 }
-header ul>a:hover
+header ul>li>a:hover
 {
     color: gray;
 }
@@ -49,11 +52,75 @@ header ul>a:hover
     right: 10%;
     top: 3%;
 }
+/* Einde Header */
+/* Input */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* Einde Input */
+/* Homepage */
+#homePage > h1, #homePage > p{
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+}
+
+#homePage > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#homePage > div > img{
+    width: 30%;
+
+}
+
+.center
+{
+    text-align: center;
+}
+.nieuws
+{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+.nieuws>div>p>img
+{
+    float: right;
+}
+/*style voor producten*/
 h1{
     text-align: center;
 }
-/*style voor producten*/
 .container{
     display: flex;
     /*flex-wrap: wrap;*/
@@ -123,7 +190,7 @@ footer{
     overflow: hidden;
 }
 
-/* Het stukje tekst link in de foooter */
+/* Het stukje tekst link in de footer */
 footer > p{
     margin: 0;
     width: 200px;
