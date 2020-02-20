@@ -11,7 +11,7 @@ header {
 }
 
 /* Page Content */
-header> ul li
+header > ul li
 {
     height: 60px;
     width:200px;
@@ -24,24 +24,29 @@ header ul li
     transform: translateY(25%);
     right: 7%;
 }
-header ul>a
+header ul > a
 {
     text-decoration: none;
     color: white;
 }
-header ul>a:hover
+header ul > li > a:hover
 {
     color: gray;
 }
 
-#logo
+header ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo
 {
     width: 122px;
     height: 122px;
     float: left;
 
 }
-#winkelwagen
+.winkelwagen
 {
     width: 60px;
     height: 60px;
