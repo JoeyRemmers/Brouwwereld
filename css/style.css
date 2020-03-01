@@ -107,10 +107,16 @@ hr {
     margin: 0 auto;
 }
 
-#homePage > #newsDiv > div >  img{
-    width: 20%;
+#newsDiv > div{
+    width: 50%;
     float: left;
+}
 
+#homePage > #newsDiv > div > a>  img{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .center {
@@ -187,11 +193,11 @@ footer {
     background-color: #F3B75B;
     color: #FAE9CD;
     /* positie van de footer */
-    position: absolute;
-    bottom: 0;
+    position: sticky;
+    bottom: 0px;
     width: 100%;
     height: 70px;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 /* Het stukje tekst link in de footer */
