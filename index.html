@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>test</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Brouwwereld</title>
+    <link rel="icon" href="assets/Images/brouwwereld_logo_transparent.png">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 <header>
     <a href="index.html">
-    <img src="assets/Images/brouwwereld_logo_transparent.png" class="logo">
+        <img src="assets/Images/brouwwereld_logo_transparent.png" class="logo">
     </a>
     <ul>
         <li>
             <a href="Producten.html"> Producten</a>
         </li>
         <li>
-            <a href="Over%20ons.html">    Over ons</a>
+            <a href="Over%20ons.html"> Over ons</a>
         </li>
         <li>
-            <a href="Nieuws.html">   Nieuws</a>
+            <a href="Nieuws.html"> Nieuws</a>
         </li>
         <li>
-            <a href="Contact.html">    Contact</a>
+            <a href="Contact.html"> Contact</a>
         </li>
         <a href="Winkelwagen.html">
             <img src="assets/Images/Winkelwagen.png" class="winkelwagen">
@@ -35,7 +37,8 @@
     <hr>
     <p>
         Brouwwereld is dè productspecialist voor het zelf maken van bier, wijn, zuivel<br>
-        en biedt al 20 jaar gemakkelijk, voordelig en vertrouwd shoppen, zowel online als in onze megastore in ‘s-Hertogenbosch.<br>
+        en biedt al 20 jaar gemakkelijk, voordelig en vertrouwd shoppen, zowel online als in onze megastore in
+        ‘s-Hertogenbosch.<br>
         Wij zijn een professioneel, snelgroeiend bedrijf met meer dan 15 werknemers dat zich richt<br>
         op het aanbieden van kwaliteitsproducten tegen een zo laag mogelijke prijs met 100% klanttevredenheid.
     </p>
@@ -43,9 +46,64 @@
         Producten
     </h1>
     <hr>
-    <!--
-        Hier moeten 3 producten naast elkaar komen
-    -->
+<!--container waar de producten in staat-->
+    <div class="container">
+        <div class="row">
+            <!--het product-->
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="product">
+                    <div class="imgover">
+                        <img src="assets/Images/Producten/heineken.jpg" alt="heineken" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                voluptatem sequi nesciunt.
+                            </div>
+                        </div>
+                    </div>
+                    <h3>heineken<br>&euro;0,99</h3>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="product">
+                    <div class="imgover">
+                        <img src="assets/Images/Producten/desperados.jpg" alt="desperados" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                voluptatem sequi nesciunt.
+                            </div>
+                        </div>
+                    </div>
+                    <h3>desperados<br>&euro;2,-</h3>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="product">
+                    <div class="imgover">
+                        <img src="assets/Images/Producten/Bavaria.jpg" alt="Bavaria" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                Bavaria glutenvrij bier is een verfrissend zuiver en goed doordrinkbare pils zonder
+                                gluten.
+                                Tonen van granen en fruit geven het dorstlessende lichtblonde bier zijn karakter.
+                                Smaakpalet: mooie bitterheid, medium body, verfrissend.
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Bavaria Glutenvrij<br>&euro;1,19</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <h1>
         Nieuws
     </h1>
