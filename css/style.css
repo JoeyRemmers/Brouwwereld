@@ -78,7 +78,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+.content .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -121,20 +121,13 @@ hr{
 h1{
     text-align: center;
 }
-.container{
-    display: flex;
-    /*flex-wrap: wrap;*/
-    flex-flow: row wrap;
-}
 
 .product{
     width: 250px;
-    margin: 10px auto;
+    margin: 10px 5px;
     background-color: rgb(205, 128, 4);
     border: solid rgb(205, 128, 42) 10px;
-    /*border-top: 20px;*/
     border-radius: 20px;
-    /*flex: 1 0 calc(25% - 20px);*/
 }
 
 .imgover {
@@ -143,7 +136,7 @@ h1{
 
 .image {
     display: block;
-    width: 250px;
+    width: 100%;
     height: auto;
     border-radius: 20px 20px 0 0;
     margin: 0;
