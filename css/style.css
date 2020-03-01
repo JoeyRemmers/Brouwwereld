@@ -102,23 +102,14 @@ hr {
     color: #DE801A;
 }
 
-<<<<<<< HEAD
-#homePage > div {
-=======
 #homePage > #newsDiv{
->>>>>>> home pagina edits
     width: 80%;
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-#homePage > div > img {
-    width: 30%;
-=======
 #homePage > #newsDiv > div >  img{
     width: 20%;
     float: left;
->>>>>>> home pagina edits
 
 }
 
