@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-main, .content {
+main {
     padding-bottom: 70px;
 }
 
@@ -75,7 +75,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rgb(199, 124, 40);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -84,12 +84,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(68, 42, 14);
 }
 
 .content .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
 }
 
@@ -104,17 +103,22 @@ hr {
     color: #DE801A;
 }
 
-#homePage > #newsDiv {
+#newsDiv {
     width: 80%;
     margin: 0 auto;
+    display: flex;
 }
 
-#newsDiv > div {
+#newsDiv > div{
     width: 50%;
-    float: left;
+    display: inline-block;
 }
 
-#homePage > #newsDiv > div > a > img {
+.row a {
+    margin: auto;
+}
+
+#homePage > #newsDiv > div > a>  img{
     width: 50%;
     position: relative;
     left: 50%;
@@ -123,12 +127,6 @@ hr {
 
 .center {
     text-align: center;
-}
-
-.nieuws {
-    width: 80%;
-    position: absolute;
-    left: 10%;
 }
 
 .nieuws > div > p > img {
@@ -196,8 +194,8 @@ footer {
     background-color: #F3B75B;
     color: #FAE9CD;
     /* positie van de footer */
-    position: sticky;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 70px;
     overflow: hidden;

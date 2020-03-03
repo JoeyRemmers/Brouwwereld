@@ -29,26 +29,33 @@
         </a>
     </ul>
 </header>
-<div class="content">
-    <div class="container">
-        <form action="/action_page.php">
-            <label for="Name">naam</label>
-            <input type="text" id="Name" name="Name" placeholder="Naam">
+<main>
+    <div class="content">
+        <div class="container">
+            <form name="contact" action="/action_page.php" method="post">
+                <label for="Aanhef" >Aanhef</label>
+                <input type="text" id="Aanhef" name="Aanhef" placeholder="Aanhef" required>
 
-            <label for="Email">E-mail</label>
-            <input type="text" id="Email" name="E-mail" placeholder="E-mail"><br>
+                <label for="Name">Naam</label>
+                <input type="text" id="Name" name="Name" placeholder="Naam" required>
 
-            <label for="subject">Onderwerp</label>
-            <input type="text" id="subject" name="Title" placeholder="Onderwerp">
+                <label for="Email">E-mail</label>
+                <input type="text" id="Email" name="Email" placeholder="E-mail" required>
 
-            <label for="text">Opmerking</label>
-            <textarea id="text" name="subject" placeholder="" style="height:150px"></textarea>
+                <label for="Phone">Telefoonnummer</label>
+                <input type="text" id="Phone" name="Phone" placeholder="Telefoonnummer" required>
 
-            <input type="submit" value="Submit">
-        </form>
+                <label for="text">Vraag/opmerking</label>
+                <textarea id="text" name="subject" placeholder="" style="height:150px" required></textarea>
+
+                <input type="checkbox" id="News" name="News" value="Ja">
+                <label for="News">Ja ik acepteer de voorwaarden en schrijf me in voor de nieuwsbrief</label><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-</div>
-
+</main>
 <footer>
     <p>&copy; Brouwwereld 2020</p>
     <ul>
