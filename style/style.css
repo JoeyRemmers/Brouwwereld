@@ -49,3 +49,9 @@
     margin: auto;
     margin-top: 0px;
 }
+
+.tekst {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
