@@ -10,8 +10,11 @@ body {
 main {
   padding-bottom: 70px;
 }
+@media only screen and (max-width: 600px) {
+}
 /* header*/
 header {
+  width: 100%;
   padding: 1px;
   text-align: center;
   background-color: #F3B75B;
@@ -21,17 +24,20 @@ header {
 h2 {
   color: #D28832;
 }
-/* Page Content */
-header > ul li {
-  height: 60px;
-  width: 200px;
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% 5%;
+}
+ul {
+  padding: 0;
 }
 header ul li {
   display: inline-block;
-  width: 250px;
+  margin: auto;
+  min-width: 60px;
+  min-height: 60px;
   position: relative;
-  transform: translateY(25%);
-  right: 7%;
 }
 header ul > li > a {
   text-decoration: none;
@@ -41,15 +47,16 @@ header ul > li > a:hover {
   color: gray;
 }
 /* Einde Header */
+.logohead {
+  margin: auto;
+}
 .logo {
   width: 122px;
   height: 122px;
-  float: left;
 }
 .winkelwagen {
   width: 60px;
   height: 60px;
-  position: absolute;
 }
 .imgSize {
   width: 300px;
@@ -100,14 +107,16 @@ hr {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+#newsDiv > div {
+  width: 50%;
+  display: inline-block;
 }
 .row a {
   margin: auto;
 }
 #homePage > #newsDiv > div > a > img {
-  width: 80%;
+  width: 50%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -249,10 +258,3 @@ footer > ul > li:last-child {
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
-
-/* responsivenes */
-@media screen and (max-width: 740px){
-    #newsDiv{
-        flex-direction: column;
-    }
-}

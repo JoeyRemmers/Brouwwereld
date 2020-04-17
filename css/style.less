@@ -12,8 +12,21 @@ main {
     padding-bottom: 70px;
 }
 
+@media only screen and (max-width: 600px) {
+    //ul {
+    //    width: 100%;
+    //    align-items: center;
+    //}
+    //li {
+    //    font-size: 20px;
+    //    width: 100%;
+    //    text-align: center;
+    //}
+}
+
 /* header*/
 header {
+    width: 100%;
     padding: 1px;
     text-align: center;
     background-color: #F3B75B;
@@ -25,18 +38,29 @@ h2 {
     color: #D28832;
 }
 
-/* Page Content */
-header > ul li {
-    height: 60px;
-    width: 200px;
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 5%;
 }
 
+ul {
+    //margin: 0 auto;
+    padding: 0;
+}
+
+///* Page Content */
 header ul li {
+    //height: 60px;
     display: inline-block;
-    width: 250px;
+
+    margin: auto;
+    min-width: 60px;
+    min-height: 60px;
+    //width: 250px;
     position: relative;
-    transform: translateY(25%);
-    right: 7%;
+    //transform: translateY(25%);
+    //right: 7%;
 }
 
 header ul > li > a {
@@ -48,17 +72,19 @@ header ul > li > a:hover {
     color: gray;
 }
 /* Einde Header */
+.logohead {
+    margin: auto;
+}
+
 .logo {
     width: 122px;
     height: 122px;
-    float: left;
-
 }
 
 .winkelwagen {
     width: 60px;
     height: 60px;
-    position: absolute;
+    //position: absolute;
 }
 .imgSize
 {
@@ -288,3 +314,4 @@ footer > ul li {
 footer > ul > li:last-child {
     border: none;
 }
+
