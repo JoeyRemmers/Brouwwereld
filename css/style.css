@@ -100,14 +100,16 @@ hr {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+#newsDiv > div {
+  width: 50%;
+  display: inline-block;
 }
 .row a {
   margin: auto;
 }
-#homePage > #newsDiv > div > a > img {
-  width: 80%;
+#newsDiv > div > a > img {
+  width: 50%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -249,70 +251,3 @@ footer > ul > li:last-child {
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
-
-/* responsivenes */
-@media screen and (max-width: 740px){
-    #newsDiv{
-        flex-direction: column;
-    }
-}
-
-/* Over Ons pagina */
-
-#overOns > h1{
-  margin: auto auto;
-  margin-bottom: 2%;
-  margin-top: 1%;
-  text-align: center;
-  font-family: beerFont;
-}
-
-#overOns h2{
-  color: #D28832;
-  font-family: beerFont;
-}
-
-#overOns > p{
-  margin: auto auto;
-  margin-bottom: 1%;
-  font-family: beerFont;
-  font-family: beerFont;
-}
-
-#photoGallery > h2{
-  margin: auto auto;
-  margin-bottom: 2%;
-  margin-top: 3%;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-bottom: 7%;
-  margin-left: 0.25%;
-  margin-right: 0.25%;
-}
-
-.column {
-  flex: 25%;
-  max-width: 24%;
-  /* padding: 0 4px; */
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.row > .column{
-  margin: auto;
-  margin-top: 0px;
-}
-
-.tekst {
-  width: 80%;
-  position: relative;
-  left: 10%;
-}
